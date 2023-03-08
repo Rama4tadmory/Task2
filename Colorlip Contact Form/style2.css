@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(30, 153, 40);
+}
+.card{
+    background-color: white;
+    margin: 50px;
+    margin-left: 300px;
+    width: 400px;
+    height: 500px;
+    color: rgb(30, 153, 40);
+
+} 
+.card h1{
+    margin: 10px;
+    color: gray;
+}
+.card h2{
+    font-size: medium;
+    margin: 10px;
+    color: gray;
+}
+.card form{
+    background-color: honeydew;
+    margin: 10px;
+    padding: 10px;display: grid;
+    grid-column: 300px;
+    
+}
+.card form input
+{
+    margin: 10px;
+}
+.card form textarea{
+    padding: 5px;
+    height: 70px;
+    margin: 10px;
+}
+.card form button{
+    margin: 10px;
+    background-color: green;
+    color: honeydew;
+    padding: 10px;
+    border: none;
+
+}
+#p{
+   
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
